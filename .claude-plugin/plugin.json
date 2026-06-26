@@ -1,0 +1,20 @@
+{
+  "name": "openagent-coding",
+  "version": "1.0.0",
+  "description": "A collection of Claude Code skills for AI-assisted software engineering — codebase analysis, PR review, stock research, Kubeflow pipelines, context management, session telemetry, and more.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": [
+    "skills",
+    "code-analysis",
+    "pr-review",
+    "mlops",
+    "kubeflow",
+    "stock-analysis",
+    "context-management",
+    "agent-tools"
+  ],
+  "skills": "."
+}

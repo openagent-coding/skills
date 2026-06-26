@@ -1,0 +1,11 @@
+{
+  "name": "code-tree",
+  "version": "1.0.0",
+  "description": "Build and query a knowledge graph of any codebase with call graph, test mapping, and impact analysis.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["code-analysis", "knowledge-graph", "call-graph", "impact-analysis", "codebase"],
+  "skills": "."
+}

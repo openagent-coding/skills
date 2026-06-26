@@ -1,0 +1,11 @@
+{
+  "name": "kubeflow-pipelines",
+  "version": "1.0.0",
+  "description": "Write Kubeflow Pipelines SDK v2 pipelines for OpenShift AI (RHOAI) / Data Science Pipelines.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["kubeflow", "kfp", "pipelines", "openshift-ai", "rhoai", "mlops"],
+  "skills": "."
+}

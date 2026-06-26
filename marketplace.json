@@ -1,0 +1,117 @@
+{
+  "name": "openagent-coding",
+  "description": "A collection of Claude Code skills for AI-assisted software engineering workflows",
+  "owner": {
+    "name": "Nelesh Singla"
+  },
+  "plugins": [
+    {
+      "name": "openagent-coding",
+      "source": ".",
+      "description": "All skills bundled — codebase analysis, PR review, stock research, Kubeflow pipelines, context management, session telemetry, and more.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["skills", "code-analysis", "pr-review", "mlops", "kubeflow", "stock-analysis", "context-management", "agent-tools"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "code-tree",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "code-tree" },
+      "description": "Build and query a knowledge graph of any codebase with call graph, test mapping, and impact analysis.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["code-analysis", "knowledge-graph", "call-graph", "impact-analysis"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "context-auto-summarizer",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "context-auto-summarizer" },
+      "description": "Automatic context window management with intelligent summarization and affinity clustering.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["context-management", "summarization", "token-management"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "evaluate-and-improve",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "evaluate-and-improve" },
+      "description": "Evaluate agent outputs against quality standards and automatically retry targeted fixes when any category scores below threshold.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["quality-assurance", "evaluation", "agent-tools"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "explain-code",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "explain-code" },
+      "description": "Explains code with visual diagrams and analogies. Use when explaining how code works or teaching about a codebase.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["code-explanation", "teaching", "diagrams"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "financial-stock-analyzer",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "financial-stock-analyzer" },
+      "description": "Comprehensive financial stock analysis providing buy/sell/hold recommendations based on multi-dimensional research.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["stock-analysis", "finance", "investment"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "kubeflow-pipelines",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "kubeflow-pipelines" },
+      "description": "Write Kubeflow Pipelines SDK v2 pipelines for OpenShift AI (RHOAI) / Data Science Pipelines.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["kubeflow", "kfp", "pipelines", "openshift-ai", "rhoai", "mlops"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "multi-agent-coordinator",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "multi-agent-coordinator" },
+      "description": "Orchestrate parallel task execution across specialized agents based on todo list analysis.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["multi-agent", "orchestration", "task-coordination"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "output-evaluator",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "output-evaluator" },
+      "description": "Evaluate agent outputs against system requirements and user requests with comprehensive quality analysis.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["evaluation", "quality-analysis", "agent-tools"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "pr-review",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "pr-review" },
+      "description": "Review GitHub pull requests with structured impact and code-quality analysis.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["pull-request", "code-review", "github"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "pr-summary",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "pr-summary" },
+      "description": "Summarize changes in a pull request.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["pull-request", "summary", "github"],
+      "author": { "name": "Nelesh Singla" }
+    },
+    {
+      "name": "session-metrics-tracker",
+      "source": { "source": "git-subdir", "url": "https://github.com/openagent-coding/skills.git", "path": "session-metrics-tracker" },
+      "description": "Background session telemetry that records context length, LLM call count, and human interrupt count with CSV/plot reports.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["telemetry", "metrics", "session-tracking"],
+      "author": { "name": "Nelesh Singla" }
+    }
+  ]
+}

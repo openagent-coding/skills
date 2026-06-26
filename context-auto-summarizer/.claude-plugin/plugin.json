@@ -1,0 +1,11 @@
+{
+  "name": "context-auto-summarizer",
+  "version": "1.0.0",
+  "description": "Automatic context window management with intelligent summarization and affinity clustering.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["context-management", "summarization", "token-management"],
+  "skills": "."
+}

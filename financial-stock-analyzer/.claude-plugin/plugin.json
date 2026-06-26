@@ -1,0 +1,11 @@
+{
+  "name": "financial-stock-analyzer",
+  "version": "1.0.0",
+  "description": "Comprehensive financial stock analysis providing buy/sell/hold recommendations based on multi-dimensional research.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["stock-analysis", "finance", "investment", "mlops"],
+  "skills": "."
+}

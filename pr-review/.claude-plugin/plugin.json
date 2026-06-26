@@ -1,0 +1,11 @@
+{
+  "name": "pr-review",
+  "version": "1.0.0",
+  "description": "Review GitHub pull requests with structured impact and code-quality analysis.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["pull-request", "code-review", "github"],
+  "skills": "."
+}

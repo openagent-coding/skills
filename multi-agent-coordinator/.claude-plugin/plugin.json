@@ -1,0 +1,11 @@
+{
+  "name": "multi-agent-coordinator",
+  "version": "1.0.0",
+  "description": "Orchestrate parallel task execution across specialized agents based on todo list analysis.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["multi-agent", "orchestration", "task-coordination"],
+  "skills": "."
+}

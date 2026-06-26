@@ -1,0 +1,11 @@
+{
+  "name": "explain-code",
+  "version": "1.0.0",
+  "description": "Explains code with visual diagrams and analogies. Use when explaining how code works or teaching about a codebase.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["code-explanation", "teaching", "diagrams"],
+  "skills": "."
+}

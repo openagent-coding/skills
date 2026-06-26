@@ -1,0 +1,11 @@
+{
+  "name": "pr-summary",
+  "version": "1.0.0",
+  "description": "Summarize changes in a pull request.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["pull-request", "summary", "github"],
+  "skills": "."
+}

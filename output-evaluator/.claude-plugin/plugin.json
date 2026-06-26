@@ -1,0 +1,11 @@
+{
+  "name": "output-evaluator",
+  "version": "1.0.0",
+  "description": "Evaluate agent outputs against system requirements and user requests with comprehensive quality analysis.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["evaluation", "quality-analysis", "agent-tools"],
+  "skills": "."
+}

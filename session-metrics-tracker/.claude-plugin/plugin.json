@@ -1,0 +1,11 @@
+{
+  "name": "session-metrics-tracker",
+  "version": "1.0.0",
+  "description": "Background session telemetry that records context length, LLM call count, and human interrupt count with CSV/plot reports.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["telemetry", "metrics", "session-tracking"],
+  "skills": "."
+}

@@ -1,0 +1,11 @@
+{
+  "name": "evaluate-and-improve",
+  "version": "1.0.0",
+  "description": "Evaluate agent outputs against quality standards and automatically retry targeted fixes when any category scores below threshold.",
+  "author": {
+    "name": "Nelesh Singla"
+  },
+  "repository": "https://github.com/openagent-coding/skills",
+  "keywords": ["quality-assurance", "evaluation", "agent-tools"],
+  "skills": "."
+}
